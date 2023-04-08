@@ -361,26 +361,6 @@ RUS_smo = {
 		days_remove = 30
 		remove_effect = {
 			add_equipment_to_stockpile = {
-				type = t80a_equipment
-				amount = 1000
-
-			}
-			add_equipment_to_stockpile = {
-				type = t72b_equipment
-				amount = 2000
-
-			}
-			add_equipment_to_stockpile = {
-				type = bmp_1_equipment
-				amount = 2500
-
-			}
-			add_equipment_to_stockpile = {
-				type = bmp_2_equipment
-				amount = 1500
-
-			}
-			add_equipment_to_stockpile = {
 				type = fighter_equipment_1
 				amount = 500
 

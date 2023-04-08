@@ -28,9 +28,6 @@ tank_manufacturer = {
 				armor = 0.10
 			}	
 			equipment_bonus = {
-				t14_equipment = {
-					soft_attack = 0.1
-				}
 			}
 
 		}
@@ -290,30 +287,6 @@ tank_manufacturer = {
 					soft_attack = 0.05 
 					instant = yes
 				}
-				heavy_artillery_equipment = {
-					build_cost_ic = 0.2
-					reliability = -0.2
-					defense = 0.25 
-					breakthrough = 0.20 
-					soft_attack = 0.20 
-					instant = yes
-				}
-				SPA_equipment = {
-					build_cost_ic = -0.02
-					reliability = 0.03
-					defense = 0.05
-					breakthrough = 0.10 
-					soft_attack = 0.05 
-					instant = yes
-				}
-				MRL_equipment = {
-					build_cost_ic = -0.1
-					reliability = -0.2
-					defense = 0.05 
-					breakthrough = 0.10 
-					soft_attack = 0.10 
-					instant = yes
-				}
 			}
 		}
 		
@@ -333,30 +306,6 @@ tank_manufacturer = {
 					defense = 0.07 
 					breakthrough = 0.12 
 					soft_attack = 0.07 
-					instant = yes
-				}
-				heavy_artillery_equipment = {
-					build_cost_ic = 0.25
-					reliability = -0.25
-					defense = 0.25 
-					breakthrough = 0.25 
-					soft_attack = 0.25 
-					instant = yes
-				}
-				SPA_equipment = {
-					build_cost_ic = 0.05
-					reliability = -0.15
-					defense = -0.05
-					breakthrough = 0.15 
-					soft_attack = 0.07 
-					instant = yes
-				}
-				MRL_equipment = {
-					build_cost_ic = -0.25
-					reliability = -0.25
-					defense = 0.1 
-					breakthrough = 0.12 
-					soft_attack = 0.12 
 					instant = yes
 				}
 			}
@@ -379,30 +328,6 @@ tank_manufacturer = {
 					soft_attack = 0.07 
 					instant = yes
 				}
-				heavy_artillery_equipment = {
-					build_cost_ic = 0.25
-					reliability = -0.25
-					defense = 0.25 
-					breakthrough = 0.25 
-					soft_attack = 0.25 
-					instant = yes
-				}
-				SPA_equipment = {
-					build_cost_ic = 0.15
-					reliability = 0.1
-					defense = -0.05
-					breakthrough = 0.15 
-					soft_attack = 0.12 
-					instant = yes
-				}
-				MRL_equipment = {
-					build_cost_ic = -0.25
-					reliability = -0.25
-					defense = 0.1 
-					breakthrough = 0.12 
-					soft_attack = 0.12 
-					instant = yes
-				}
 			}
 		}
 		RUS_artillery_idea_4 = {
@@ -423,30 +348,6 @@ tank_manufacturer = {
 					soft_attack = 0.07 
 					instant = yes
 				}
-				heavy_artillery_equipment = {
-					build_cost_ic = 0.25
-					reliability = -0.25
-					defense = 0.25 
-					breakthrough = 0.25 
-					soft_attack = 0.25 
-					instant = yes
-				}
-				SPA_equipment = {
-					build_cost_ic = 0.15
-					reliability = 0.1
-					defense = -0.05
-					breakthrough = 0.15 
-					soft_attack = 0.12 
-					instant = yes
-				}
-				MRL_equipment = {
-					build_cost_ic = -0.3
-					reliability = -0.3
-					defense = 0.12 
-					breakthrough = 0.15 
-					soft_attack = 0.15 
-					instant = yes
-				}
 			}
 		}
 		RUS_artillery_idea_5 = {
@@ -465,30 +366,6 @@ tank_manufacturer = {
 					defense = 0.07 
 					breakthrough = 0.12 
 					soft_attack = 0.07 
-					instant = yes
-				}
-				heavy_artillery_equipment = {
-					build_cost_ic = 0.25
-					reliability = -0.25
-					defense = 0.25 
-					breakthrough = 0.25 
-					soft_attack = 0.25 
-					instant = yes
-				}
-				SPA_equipment = {
-					build_cost_ic = 0.15
-					reliability = 0.1
-					defense = -0.05
-					breakthrough = 0.15 
-					soft_attack = 0.12 
-					instant = yes
-				}
-				MRL_equipment = {
-					build_cost_ic = 0.35
-					reliability = 0.25
-					defense = 0.2 
-					breakthrough = 0.25 
-					soft_attack = 0.2 
 					instant = yes
 				}
 			}
@@ -1714,23 +1591,6 @@ tank_manufacturer = {
 			modifier = {
 
 			}
-			equipment_bonus = { 
-				btr_k_equipment = {
-					build_cost_ic = 0.30 instant = yes
-				}
-			}
-
-			equipment_bonus = { 
-				bmpt_2_equipment = {
-					build_cost_ic = 0.40 instant = yes
-				}
-			}
-
-			equipment_bonus = { 
-				t14A_equipment = {
-					build_cost_ic = 0.40 instant = yes
-				}
-			}
 			
 		}
 
@@ -1755,12 +1615,6 @@ tank_manufacturer = {
 			equipment_bonus = { 
 				support_equipment = {
 					build_cost_ic = 0.10 instant = yes
-				}
-			}
-
-			equipment_bonus = { 
-				t90m_equipment = {
-					build_cost_ic = 0.15 instant = yes
 				}
 			}
 			
@@ -1818,12 +1672,6 @@ tank_manufacturer = {
 			removal_cost = -1
 
 			picture = GFX_idea_t72b3
-
-			equipment_bonus = { 
-				t72_equipment = {
-					build_cost_ic = -0.15 instant = yes
-				}
-			}
 			
 		}
 
@@ -1840,14 +1688,6 @@ tank_manufacturer = {
 
 			picture = GFX_idea_t72b3
 
-			equipment_bonus = { 
-				t72_equipment = {
-					build_cost_ic = -0.10 instant = yes
-					defense = 0.15 instant = yes
-		            breakthrough = 0.10 instant = yes
-					maximum_speed = -0.05 instant = yes
-				}
-			}
 			
 		}
 
@@ -1863,11 +1703,6 @@ tank_manufacturer = {
 			removal_cost = -1
 
 			picture = GFX_idea_t901
-			equipment_bonus = { 
-				t90_equipment = {
-					defense = 0.10 instant = yes
-				}
-			}
 			
 		}
 
@@ -1884,12 +1719,6 @@ tank_manufacturer = {
 
 			picture = GFX_idea_t901
 
-			equipment_bonus = { 
-				t90_equipment = {
-					defense = 0.25 instant = yes
-					breakthrough = 0.10 instant = yes
-				}
-			}
 			
 		}
 
@@ -1906,13 +1735,6 @@ tank_manufacturer = {
 
 			picture = GFX_idea_t901
 
-			equipment_bonus = { 
-				t90_equipment = {
-					defense = 0.25 instant = yes
-					breakthrough = 0.10 instant = yes
-					soft_attack = 0.10 instant = yes
-				}
-			}
 			
 		}
 
@@ -1929,15 +1751,6 @@ tank_manufacturer = {
 
 			picture = GFX_idea_t901
 
-			equipment_bonus = { 
-				t90_equipment = {
-					defense = 0.25 instant = yes
-					breakthrough = 0.15 instant = yes
-					soft_attack = 0.15 instant = yes
-					hard_attack = 0.10 instant = yes
-					build_cost_ic = 0.05 instant = yes
-				}
-			}
 			
 		}
 
@@ -1956,26 +1769,6 @@ tank_manufacturer = {
 
 			
 			modifier = {
-
-			}
-			equipment_bonus = { 
-				btr_k_equipment = {
-					build_cost_ic = 0.15 instant = yes
-				}
-			}
-
-			equipment_bonus = { 
-				bmpt_2_equipment = {
-					build_cost_ic = 0.20 instant = yes
-				}
-			}
-
-			equipment_bonus = { 
-				t14A_equipment = {
-					build_cost_ic = 0.20 instant = yes
-					defense = 0.15 instant = yes
-					breakthrough = 0.15 instant = yes
-				}
 
 			}
 			
@@ -2014,12 +1807,6 @@ tank_manufacturer = {
 			removal_cost = -1
 
 			picture = GFX_idea_rpg7
-
-			equipment_bonus = { 
-				infantry_anti_tank_equipment = {
-					soft_attack = 0.05 instant = yes
-				}
-			}
 			
 		}
 
@@ -2051,14 +1838,6 @@ tank_manufacturer = {
 
 			picture = GFX_idea_bmp3
 
-			equipment_bonus = { 
-				bmp_3A_equipment = {
-					defense = 0.05 instant = yes
-					breakthrough = 0.10 instant = yes
-					build_cost_ic = 0.10 instant = yes
-					maximum_speed = -0.03 instant = yes
-				}
-			}
 			
 		}
 
@@ -2075,15 +1854,6 @@ tank_manufacturer = {
 
 			picture = GFX_idea_bmp2
 
-			equipment_bonus = { 
-				bmp_2A_equipment = {
-					breakthrough = 0.05 instant = yes
-					soft_attack = 0.05 instant = yes
-					hard_attack = 0.10 instant = yes
-					maximum_speed = 0.03 instant = yes
-					reliability = -0.05 instant = yes
-				}
-			}
 			
 		}
 
@@ -2100,14 +1870,6 @@ tank_manufacturer = {
 
 			picture = GFX_idea_bmp2
 
-			equipment_bonus = { 
-				bmp_2A_equipment = {
-					breakthrough = 0.10 instant = yes
-					soft_attack = 0.05 instant = yes
-					hard_attack = 0.10 instant = yes
-					reliability = -0.05 instant = yes
-				}
-			}
 			
 		}
 
@@ -2124,16 +1886,6 @@ tank_manufacturer = {
 
 			picture = GFX_idea_bmp2
 
-			equipment_bonus = { 
-				bmp_2A_equipment = {
-					defense = 0.05 instant = yes
-					breakthrough = 0.15 instant = yes
-					soft_attack = 0.10 instant = yes
-					hard_attack = 0.10 instant = yes
-					maximum_speed = -0.15 instant = yes
-					reliability = -0.10 instant = yes
-				}
-			}
 			
 		}
 
@@ -2150,17 +1902,6 @@ tank_manufacturer = {
 
 			picture = GFX_idea_bmp2
 
-			equipment_bonus = { 
-				bmp_2A_equipment = {
-					defense = 0.10 instant = yes
-					breakthrough = 0.15 instant = yes
-					soft_attack = 0.15 instant = yes
-					hard_attack = 0.15 instant = yes
-					build_cost_ic = -0.05 instant = yes
-					reliability = -0.25 instant = yes
-					maximum_speed = -0.10 instant = yes
-				}
-			}
 			
 		}
 
@@ -2177,17 +1918,6 @@ tank_manufacturer = {
 
 			picture = GFX_idea_bmp2
 
-			equipment_bonus = { 
-				bmp_2A_equipment = {
-					defense = 0.18 instant = yes
-					breakthrough = 0.20 instant = yes
-					soft_attack = 0.20 instant = yes
-					hard_attack = 0.20 instant = yes
-					build_cost_ic = 0.30 instant = yes
-					reliability = 0.01 instant = yes
-					maximum_speed = -0.10 instant = yes
-				}
-			}
 			
 		}
 
@@ -2231,12 +1961,6 @@ economic_stagnation_2 = {
 			removal_cost = -1
 
 			picture = GFX_idea_t80bvm
-
-			equipment_bonus = { 
-				t80_equipment = {
-					build_cost_ic = -0.05 instant = yes
-				}
-			}
 			
 		}
 
@@ -2252,13 +1976,6 @@ economic_stagnation_2 = {
 			removal_cost = -1
 
 			picture = GFX_idea_t80bvm
-
-			equipment_bonus = { 
-				t80_equipment = {
-					build_cost_ic = -0.15 instant = yes
-					reliability = -0.10 instant = yes
-				}
-			}
 			
 		}
 
@@ -2275,14 +1992,6 @@ economic_stagnation_2 = {
 
 			picture = GFX_idea_t80bvm
 
-			equipment_bonus = { 
-				t80_equipment = {
-					build_cost_ic = -0.10 instant = yes
-					defense = 0.10 instant = yes
-					breakthrough = 0.10 instant = yes
-					reliability = -0.10 instant = yes
-				}
-			}
 			
 		}
 
@@ -2298,17 +2007,6 @@ economic_stagnation_2 = {
 			removal_cost = -1
 
 			picture = GFX_idea_t80bvm
-
-			equipment_bonus = { 
-				t80_equipment = {
-					build_cost_ic = -0.10 instant = yes
-					defense = 0.15 instant = yes
-					breakthrough = 0.15 instant = yes
-					soft_attack = 0.10 instant = yes
-					hard_attack = 0.10 instant = yes
-					reliability = -0.15 instant = yes
-				}
-			}
 			
 		}
 
@@ -2324,18 +2022,6 @@ economic_stagnation_2 = {
 			removal_cost = -1
 
 			picture = GFX_idea_t80bvm
-
-			equipment_bonus = { 
-				t80_equipment = {
-					build_cost_ic = -0.05 instant = yes
-					defense = 0.15 instant = yes
-					breakthrough = 0.15 instant = yes
-					soft_attack = 0.10 instant = yes
-					hard_attack = 0.10 instant = yes
-					maximum_speed = 0.10 instant = yes
-					reliability = -0.15 instant = yes
-				}
-			}
 			
 		}
 
@@ -2351,12 +2037,6 @@ economic_stagnation_2 = {
 			removal_cost = -1
 
 			picture = GFX_idea_tos2
-
-			equipment_bonus = { 
-				HFS_equipment_1 = {
-					build_cost_ic = -0.1 instant = yes
-				}
-			}
 			
 		}
 
