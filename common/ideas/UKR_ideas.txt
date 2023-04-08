@@ -11,12 +11,6 @@ ideas = {
 			research_bonus = {
 				armor = 0.10
 			}	
-			equipment_bonus = {
-				t80_equipment = {
-					soft_attack = 0.1
-					reliability_factor = 0.1
-				}
-			}
 
 		}
 		UKR_Tank_2 = {

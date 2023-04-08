@@ -267,54 +267,6 @@ focus_tree = {
 				amount = 50000
 				producer = RUS
 					}
-		    add_equipment_to_stockpile = {
-				type = infantry_anti_tank_equipment_0	
-				amount = 25000
-				producer = RUS
-					}
-
-			add_equipment_to_stockpile = {
-				type = infantry_anti_air_equipment_0	
-				amount = 25000
-				producer = RUS
-					}
-
-		    add_equipment_to_stockpile = {
-				type = artillery_equipment_2	
-				amount = 1000
-				producer = RUS
-					}
-
-			add_equipment_to_stockpile = {
-				type = SPA_equipment_1	
-				amount = 500
-				producer = RUS
-					}
-
-			add_equipment_to_stockpile = {
-				type = MRL_equipment_1	
-				amount = 500
-				producer = RUS
-					}
-			
-		    add_equipment_to_stockpile = {
-				type = LRAA_equipment_1	
-				amount = 250
-				producer = RUS
-					}
-
-			add_equipment_to_stockpile = {
-				type = MRAA_equipment_1	
-				amount = 250
-				producer = RUS
-					}
-
-
-	         add_equipment_to_stockpile = {
-				type = t72b_equipment	
-				amount = 500
-				producer = RUS
-					}
 		}
 	}
 
