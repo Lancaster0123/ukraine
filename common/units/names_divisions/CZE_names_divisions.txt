@@ -1,38 +1,4 @@
-﻿# Шаблон дивизиона историческая система названий. Это новый метод присвоения имен дивизионам на основе имен-групп, присвоенных шаблону.
-# Если у нас закончатся все исторические имена, имена будут назначены старым способом.
-#
-# У каждой группы есть придуманный тег. Используйте его, если вы хотите добавить больше или заменить существующие названия с помощью дополнительных txt-файлов (моддинг).
-#
-# for_countries - перечисляет все страны, которые могут его использовать. Если пусто или отсутствует весь тег, то все страны в мире могут его использовать.
-#
-# can_use - триггер, который блокирует/разблокирует группу при определенных обстоятельствах. Триггер находится в области видимости страны.
-#
-# division_types - список маркеров соответствующих типов подразделений. На самом деле игрок может использовать любую группу названий для div.template.
-# однако этот тег является помощником для автоматического выбора (для AI, или если группа должна переключиться сама по себе, т.к.
-# например, текущая больше не доступна из-за того, что триггер can_use говорит об этом).
-# При автоматическом выборе шаблон подразделения должен иметь хотя бы 1 из следующих типов, чтобы он был выбран.
-#
-# fallback_name - Будет использоваться, если у нас закончатся заскриптованные исторические названия. Если вы хотите использовать старое название дивизии.
-# механики, которые будут использоваться для отступления, то просто пропустите эту опцию.
-#
-# неупорядоченный - Это список исторических названий дивизий, у которых не было номера. Независимо от того, были ли такие названия в истории или нет.
-# эта опция доступна здесь в основном для модов.
-#
-# упорядоченный - Список всех исторических названий. 
-# Номера должны начинаться от 1 и выше. 
-# Числа не могут повторяться в одном диапазоне.
-# Если в скрипте для этой группы задано имя под тем же номером (например, в моде в другом файле), это имя будет переопределено.
-# Все аргументы между скобками должны быть разделены пробелами. Каждый аргумент обернут в "квоту".
-# 1-й аргумент = Имя. Оно должно содержать либо: 
-# %d (для десятичного размещения чисел)
-# %s (для размещения строковых чисел - РОМАНСКИЕ числа, например XIV).
-# 2-й аргумент необязателен = Локализуемый текст, описывающий данное историческое деление. Текст будет виден во всплывающей подсказке.
-# где вы выбираете название исторического подразделения.
-# 3-й аргумент необязателен = URL, желательно указывающий на WIKI. Это будущая функция, которая в настоящее время не работает в
-# текущей версии игры.
-
-
-# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
 # If we run out of all historical names, the names will be assigned in the old way.
 #
 # Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
@@ -64,40 +30,6 @@
 #                                      where you choose the historical division name.
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
-
-
-# Шаблон дивізіону історична система назв. Це новий метод присвоєння імен дивізіонам на основі імен-груп, присвоєних шаблону.
-# Якщо у нас закінчаться всі історичні імена, імена будуть призначені старим способом.
-#
-# У кожної групи є придуманий тег. Використовуйте його, якщо ви хочете додати більше або замінити наявні назви за допомогою додаткових txt-файлів (моддінг).
-#
-# for_countries - перераховує всі країни, які можуть його використовувати. Якщо порожньо або відсутній весь тег, то всі країни у світі можуть його використовувати.
-#
-# can_use - тригер, який блокує/розблокує групу за певних обставин. Тригер знаходиться в області видимості країни.
-#
-# division_types - список маркерів відповідних типів підрозділів. Насправді гравець може використовувати будь-яку групу назв для div.template.
-# однак цей тег є помічником для автоматичного вибору (для AI, або якщо група має перемкнутися сама по собі, тому що.
-# наприклад, поточна більше не доступна через те, що тригер can_use говорить про це).
-# При автоматичному виборі шаблон підрозділу повинен мати хоча б 1 з наступних типів, щоб він був обраний.
-#
-# fallback_name - Буде використовуватися, якщо у нас закінчаться заскриптовані історичні назви. Якщо ви хочете використовувати стару назву дивізії.
-# механіки, які будуть використовуватися для відступу, то просто пропустіть цю опцію.
-#
-# невпорядкований - Це список історичних назв дивізій, у яких не було номера. Незалежно від того, чи були такі назви в історії чи ні.
-# ця опція доступна тут в основному для модів.
-#
-# упорядкований - Список усіх історичних назв. 
-# Номери повинні починатися від 1 і вище. 
-# Числа не можуть повторюватися в одному діапазоні.
-# Якщо в скрипті для цієї групи задано ім'я під тим самим номером (наприклад, у моді в іншому файлі), це ім'я буде перевизначено.
-# Усі аргументи між дужками мають бути розділені пробілами. Кожен аргумент обгорнутий у "квоту".
-# 1-й аргумент = Ім'я. Воно має містити або: 
-# %d (для десяткового розміщення чисел)
-# %s (для розміщення строкових чисел - РОМАНСЬКІ числа, наприклад XIV).
-# 2-й аргумент необов'язковий = Локалізований текст, що описує цей історичний поділ. Текст буде видно у спливаючій підказці.
-# де ви вибираєте назву історичного підрозділу.
-# 3-й аргумент необов'язковий = URL, який бажано вказує на WIKI. Це майбутня функція, яка наразі не працює в
-# поточній версії гри.
 CZE_INF_01 = 
 {
 	name = "Infantry Division"
@@ -111,42 +43,136 @@ CZE_INF_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { CZE_INF_01 }
 
-	fallback_name = "%d. pesiho praporu"
+	fallback_name = "%d. divize"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
+		1 = { "%d. divize" }
+		2 = { "%d. divize" }
+		3 = { "%d. divize" }
+		4 = { "%d. divize" }
+		5 = { "%d. divize" }
+		6 = { "%d. divize" }
+		7 = { "%d. divize" }
+		8 = { "%d. divize" }
+		9 = { "%d. divize" }
+		10 = { "%d. divize" }
+		11 = { "%d. divize" }
+		12 = { "%d. divize" }
+		13 = { "%d. divize" }
+		14 = { "%d. divize" }
+		15 = { "%d. divize" }
+		16 = { "%d. divize" }
+		17 = { "%d. divize" }
+		18 = { "%d. divize" }
+		19 = { "%d. divize" }
+		20 = { "%d. divize" }
+		21 = { "%d. divize" }
+		22 = { "%d. divize" }
 	}
 }
 
-CZE_ART_01 = 
+CZE_MOBINF_01 = 
 {
-	name = "Artillery Division"
+	name = "Mobilized Infantry Division"
 
 	for_countries = { CZE }
 
 	can_use = { always = yes }
 
-	division_types = { "Polevoi_SAU" }
+	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { CZE_INF_01 }
 
-	fallback_name = "%d. delostrelecky prapor"
+	fallback_name = "%d. divize"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-
-		1 = { "131. smiseny delostrelecky prapor" }
-		2 = { "132. smiseny delostrelecky prapor" }
-
+		2 = { "%d. divize MÁCHA" }
+		3 = { "%d. divize HOLEČEK" }
+		4 = { "%d. divize HEYDUK" }
+		5 = { "%d. divize BEZRUČ" }
+		6 = { "%d. divize KALVODA" }
+		7 = { "%d. divize ALEŠ" }
+		8 = { "%d. divize MÁNES" }
+		9 = { "%d. divize HODŽA" }
+		10 = { "%d. divize TOMAŠÍK" }
+		11 = { "%d. divize DOBROVSKÝ" }
+		12 = { "%d. divize FAJNOR" }
+		13 = { "%d. divize ÚPRKA" }
+		14 = { "%d. divize FIBICH" }
+		15 = { "%d. divize JÁNOŠÍK" }
+		16 = { "%d. divize JABLONSKÝ" }
+		17 = { "%d. divize BLODEK" }
+		18 = { "%d. divize ERBEN" }
+		19 = { "%d. divize ARBES" }
+		20 = { "%d. divize BERNOLÁK" }
+		21 = { "%d. divize ŠAFÁRIK" }
+		22 = { "%d. divize HVIEZDOSLAV" }
 	}
 }
 
+CZE_ALTINF_01 = 
+{
+	name = "Special Infantry Division"
 
+	for_countries = { CZE }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { CZE_INF_01 }
+
+	fallback_name = "Skupina %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Skupina 1 VLASTIMIL" }
+		2 = { "Skupina 2 JAROMÍR" }
+		4 = { "Skupina 4 VLK" }
+	}
+}
+
+CZE_CAV_01 = 
+{
+	name = "Cavalry Division"
+
+	for_countries = { CZE }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { CZE_INF_01 }
+
+	fallback_name = "%d. jezdecká divize"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. jezdecká divize" }
+		2 = { "%d. jezdecká divize" }
+		3 = { "%d. jezdecká divize" }
+		4 = { "%d. jezdecká divize" }
+		5 = { "%d. jezdecká divize" }
+		6 = { "%d. jezdecká divize" }
+		7 = { "%d. jezdecká divize" }
+		8 = { "%d. jezdecká divize" }
+		9 = { "%d. jezdecká divize" }
+		10 = { "%d. jezdecká divize" }
+	}
+}
 
 CZE_MOT_01 = 
 {
@@ -156,17 +182,27 @@ CZE_MOT_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" } #motorized
+	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
 	link_numbering_with = { CZE_INF_01 }
 
-	fallback_name = "%d. motostrelecky prapor"
+	fallback_name = "%d. motostřelecká divize"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
+		1 = { "%d. motostřelecká divize" }
+		2 = { "%d. motostřelecká divize" }
+		3 = { "%d. motostřelecká divize" }
+		4 = { "%d. motostřelecká divize" }
+		5 = { "%d. motostřelecká divize" }
+		6 = { "%d. motostřelecká divize" }
+		7 = { "%d. motostřelecká divize" }
+		8 = { "%d. motostřelecká divize" }
+		9 = { "%d. motostřelecká divize" }
+		10 = { "%d. motostřelecká divize" }
 	}
 }
 
@@ -178,25 +214,33 @@ CZE_MEC_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" } #mechanized
+	division_types = { "mechanized" }
 
 	# Number reservation system will tie to another group.
 	link_numbering_with = { CZE_ARM_01 }
 
-	fallback_name = "%d. mechanizovany prapor"
+	fallback_name = "%d. mechanizovaná divize"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "71. mechanizovany prapor" }
-		2 = { "72. mechanizovany prapor" }
+		1 = { "%d. mechanizovaná divize" }
+		2 = { "%d. mechanizovaná divize" }
+		3 = { "%d. mechanizovaná divize" }
+		4 = { "%d. mechanizovaná divize" }
+		5 = { "%d. mechanizovaná divize" }
+		6 = { "%d. mechanizovaná divize" }
+		7 = { "%d. mechanizovaná divize" }
+		8 = { "%d. mechanizovaná divize" }
+		9 = { "%d. mechanizovaná divize" }
+		10 = { "%d. mechanizovaná divize" }
 	}
 }
 
 CZE_ARM_01 = 
 {
-	name = "Armored Division"
+	name = "Interwar Armored Division"
 
 	for_countries = { CZE }
 
@@ -207,16 +251,44 @@ CZE_ARM_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { CZE_INF_01 }
 
-	fallback_name = "%d. tankovy prapor"
+	fallback_name = "%d. rychlá divize"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { " 73 tankovy prapor" }
+		1 = { "%d. rychlá divize KAZIMÍR" }
+		2 = { "%d. rychlá divize ONDŘEJ" }
+		3 = { "%d. rychlá divize DAVID" }
+		4 = { "%d. rychlá divize VOJTĚCH" }
 	}
 }
 
+CZE_ALTARM_01 = 
+{
+	name = "Postwar Armored Division"
+
+	for_countries = { CZE }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { CZE_INF_01 }
+
+	fallback_name = "%d. tanková divize"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. tanková divize" }
+		2 = { "%d. tanková divize" }
+		3 = { "%d. tanková divize" }
+		4 = { "%d. tanková divize" }
+	}
+}
 
 CZE_PAR_01 = 
 {
@@ -231,12 +303,22 @@ CZE_PAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { CZE_INF_01 }
 
-	fallback_name = "%d. vysadkovy prapor"
+	fallback_name = "%d. výsadková divize"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
+		1 = { "%d. výsadková divize" }
+		2 = { "%d. výsadková divize" }
+		3 = { "%d. výsadková divize" }
+		4 = { "%d. výsadková divize" }
+		5 = { "%d. výsadková divize" }
+		6 = { "%d. výsadková divize" }
+		7 = { "%d. výsadková divize" }
+		8 = { "%d. výsadková divize" }
+		9 = { "%d. výsadková divize" }
+		10 = { "%d. výsadková divize" }
 	}
 }
 
@@ -253,12 +335,22 @@ CZE_MAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { CZE_INF_01 }
 
-	fallback_name = "%d. namorniho praporu"
+	fallback_name = "%d. divize námorni pechoty"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
+		1 = { "%d. divize námorní pěchoty" }
+		2 = { "%d. divize námorní pěchoty" }
+		3 = { "%d. divize námorní pěchoty" }
+		4 = { "%d. divize námorní pěchoty" }
+		5 = { "%d. divize námorní pěchoty" }
+		6 = { "%d. divize námorní pěchoty" }
+		7 = { "%d. divize námorní pěchoty" }
+		8 = { "%d. divize námorní pěchoty" }
+		9 = { "%d. divize námorní pěchoty" }
+		10 = { "%d. divize námorní pěchoty" }
 	}
 }
 
@@ -275,11 +367,56 @@ CZE_MNT_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { CZE_INF_01 }
 
-	fallback_name = "%d. prapor horske pechoty"
+	fallback_name = "%d. horská divize"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
+		1 = { "%d. horská divize" }
+		2 = { "%d. horská divize" }
+		3 = { "%d. horská divize" }
+		4 = { "%d. horská divize" }
+		5 = { "%d. horská divize" }
+		6 = { "%d. horská divize" }
+		7 = { "%d. horská divize" }
+		8 = { "%d. horská divize" }
+		9 = { "%d. horská divize" }
+		10 = { "%d. horská divize" }
 	}
 }
+
+CZE_GAR_01 = 
+{
+	name = "Garrison Division"
+
+	for_countries = { CZE }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { CZE_INF_01 }
+
+	fallback_name = "Hraniční oblast %d"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		31 = { "Hraniční oblast %d BLAŽEJ" }
+		32 = { "Hraniční oblast %d MIKULÁŠ" }
+		33 = { "Hraniční oblast %d DOMINIK" }
+		34 = { "Hraniční oblast %d BOŘIVOJ" }
+		45 = { "Hraniční oblast %d VÍTĚZSLAV" }
+		36 = { "Hraniční oblast %d PROKOP" }
+		37 = { "Hraniční oblast %d FLORIÁN" }
+		38 = { "Hraniční oblast %d CYRIL" }
+		39 = { "Hraniční oblast %d RAFAEL" }
+		40 = { "Hraniční oblast %d MEDARD" }
+		41 = { "Hraniční oblast %d ALFONS" }
+		42 = { "Hraniční oblast %d KAROL" }
+	}
+}
+

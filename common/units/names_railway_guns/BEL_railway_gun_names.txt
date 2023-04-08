@@ -1,5 +1,5 @@
-﻿BLR_RG_HISTORICAL = {
-	for_countries = { BLR }
+﻿BEL_RG_HISTORICAL = {
+	for_countries = { BEL }
 
 	type = railway_gun
 	
